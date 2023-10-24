@@ -6,4 +6,6 @@ export const SectionMain = styled.section`
 
   padding: 100px 0;
   margin: 0 180px;
+
+  scroll-snap-align: start;
 `;

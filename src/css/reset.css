@@ -3,6 +3,8 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  
+  scroll-snap-type: y mandatory;
 }
 body {
   margin: 0;
