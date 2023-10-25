@@ -17,15 +17,6 @@ const ProjectsTab = () => {
         role_content:
           "in this project involved creating and optimizing the user interface, ensuring smooth interaction between users and geospatial data.",
       },
-      {
-        name: "Aino.World",
-        link: "aino.world",
-        content:
-          "is a significant project that reflects my skills and experience in frontend development. This web platform is a Geographic Information System (GIS) with an emphasis on collaborative interaction.",
-        role: "My role",
-        role_content:
-          "in this project involved creating and optimizing the user interface, ensuring smooth interaction between users and geospatial data.",
-      },
     ];
   }, []);
 

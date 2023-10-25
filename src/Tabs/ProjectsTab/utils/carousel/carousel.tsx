@@ -20,7 +20,7 @@ export const ProjectCarousel = ({ name }: Props) => {
           return (
             <img
               key={index}
-              src={`/img/${name}/${item}.png`}
+              src={`/img/projects/${name}/${item}.png`}
               alt={"projpic" + index}
             />
           );

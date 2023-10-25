@@ -4,6 +4,7 @@ import { isMobile } from "react-device-detect";
 interface TitleProps {
   value?: JSX.Element;
   top?: boolean;
+  centered?: boolean;
 }
 
 const StyledTitle = styled.h2<TitleProps>`
@@ -15,6 +16,13 @@ const StyledTitle = styled.h2<TitleProps>`
           margin-top: 0px;
         `
       : ``}
+  ${({ centered }) =>
+    centered
+      ? css`
+          text-align: center;
+        `
+      : ``}
+  
 
   font-style: normal;
   font-weight: 600;

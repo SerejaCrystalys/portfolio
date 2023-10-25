@@ -1,15 +1,14 @@
+import Title from "src/components/title/title";
 import { StackContent, StackItem, StackTitle } from "./__styled";
 
-export const StackSection = () => {
+const StackTab = () => {
+  const stack = ["css", "JavaScript", "TypeScript"];
+
   return (
     <>
-      {/* {
-        <StackTitle language={language}>
-          {localization!.stack!.title}
-        </StackTitle>
-      }
-      <StackContent language={language}>
-        {localization!.stack!.content.map((item: string, index: number) => {
+      <Title value={<>My stack</>} />
+      <StackContent>
+        {stack.map((item: string, index: number) => {
           return (
             <StackItem key={index}>
               <img
@@ -18,7 +17,7 @@ export const StackSection = () => {
                 className="stack_arrow"
               />
               <img
-                src={`/imgs/stack/${item}.svg`}
+                src={`/img/stack/${item}.svg`}
                 alt=""
                 width={77}
                 height={77}
@@ -27,7 +26,8 @@ export const StackSection = () => {
             </StackItem>
           );
         })}
-      </StackContent> */}
+      </StackContent>
     </>
   );
 };
+export default StackTab;

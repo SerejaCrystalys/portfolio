@@ -4,6 +4,7 @@ import { isMobile } from "react-device-detect";
 interface SectionProps {
   children: any;
   centered?: boolean;
+  id: string;
 }
 
 const SectionMain = styled.section<SectionProps>`
@@ -16,8 +17,18 @@ const SectionMain = styled.section<SectionProps>`
             display: flex;
             flex-direction: column;
             justify-content: center;
+            h2 {
+              margin-top: 0 !important;
+            }
           `
-        : css``
+        : css`
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2 {
+              margin-top: 0 !important;
+            }
+          `
     }
    `
       : ``}
