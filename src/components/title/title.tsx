@@ -2,12 +2,19 @@ import styled, { css } from "styled-components";
 import { isMobile } from "react-device-detect";
 
 interface TitleProps {
-  value: JSX.Element;
+  value?: JSX.Element;
+  top?: boolean;
 }
 
-const StyledTitle = styled.h2`
+const StyledTitle = styled.h2<TitleProps>`
   color: #1a1a1c;
   font-family: sans-serif;
+  ${({ top }) =>
+    top
+      ? css`
+          margin-top: 0px;
+        `
+      : ``}
 
   font-style: normal;
   font-weight: 600;
@@ -21,10 +28,12 @@ const StyledTitle = styled.h2`
       `}
 `;
 
-const Title = ({ value }: TitleProps) => {
+const Title = (props: TitleProps) => {
+  const { value } = props;
+
   return (
     <>
-      <StyledTitle>{value}</StyledTitle>
+      <StyledTitle {...props}>{value}</StyledTitle>
     </>
   );
 };

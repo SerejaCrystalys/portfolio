@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Section children={<HelloTab />} />
+      <Section centered children={<HelloTab />} />
       <Section children={<ProjectsTab />} />
       <Section children={<HelloTab />} />
     </>

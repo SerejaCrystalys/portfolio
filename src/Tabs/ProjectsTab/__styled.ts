@@ -46,6 +46,11 @@ export const ProjectContent = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: 45px; /* 150% */
+  &:not(:last-child) {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid black;
+  }
 
   & .react-3d-carousel {
     grid-area: t;
