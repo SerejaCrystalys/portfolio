@@ -1,4 +1,3 @@
-import React from "react";
 import Title from "src/components/title/title";
 import { ContactItem, Contacts, ContactsContainer } from "./contacts_styled";
 import Content from "src/components/content/content";

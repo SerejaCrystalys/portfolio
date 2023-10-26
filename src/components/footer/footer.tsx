@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const FooterBody = styled.div`
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: center;
   bottom: 0;
+  height: 0;
   width: 100%;
   z-index: 100;
 `;

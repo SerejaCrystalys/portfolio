@@ -49,7 +49,7 @@ const SectionMain = styled.section<SectionProps>`
 `;
 
 const Section = (props: SectionProps) => {
-  const { children, centered } = props;
+  const { children } = props;
 
   return <SectionMain {...props}>{children}</SectionMain>;
 };
