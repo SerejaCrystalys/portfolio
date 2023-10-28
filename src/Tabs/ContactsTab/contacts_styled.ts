@@ -34,6 +34,9 @@ export const ContactItem = styled.div`
   & p {
     display: flex;
     align-items: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   ${isMobile

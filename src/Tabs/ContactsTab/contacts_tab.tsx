@@ -26,7 +26,7 @@ const ContactsTab = () => {
   return (
     <>
       <ContactsContainer>
-        <Title centered top value={<>Say Hi!</>} />
+        <Title centered={true} top={true} value={<>Say Hi!</>} />
         <Contacts>
           {contacts.map((item, index) => {
             return (
