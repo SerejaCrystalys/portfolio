@@ -14,8 +14,8 @@ function App() {
 
       <Section id="hello" centered children={<HelloTab />} />
       <Section id="about" centered children={<AboutTab />} />
-      <Section id="stack" children={<StackTab />} />
-      <Section id="projects" children={<ProjectsTab />} />
+      {/* <Section id="stack" children={<StackTab />} /> */}
+      {/* <Section id="projects" children={<ProjectsTab />} /> */}
       <Section id="sayhi" centered children={<ContactsTab />} />
     </>
   );

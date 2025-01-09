@@ -38,7 +38,7 @@ export const MenuBody = styled.div<MenuProps>`
   padding: 30px 30px;
 
   display: grid;
-  grid-template-rows: repeat(4, 80px);
+  grid-template-rows: repeat(2, 80px);
 
   transition: transform 0.2s ease-in-out;
   transform: ${({ menu }) => (menu ? "translateY(0)" : "translateY(100%)")};

@@ -13,14 +13,14 @@ const ContactsTab = () => {
     },
     {
       name: "Email",
-      content: "main@khoroshev.pro",
+      content: "main@guzlik.ru",
       link: "https://mail.google.com/mail/u/0/?fs=1&to=main@khoroshev.pro&su=&body=&bcc=&tf=cm",
     },
-    {
-      name: "VK",
-      content: "Sergey Khoroshev",
-      link: "https://vk.com/cocksucker1488",
-    },
+    // {
+    //   name: "VK",
+    //   content: "Sergey Khoroshev",
+    //   link: "https://vk.com/cocksucker1488",
+    // },
   ];
 
   return (

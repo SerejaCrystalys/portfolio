@@ -32,7 +32,7 @@ export const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link activeClass="active" smooth spy to="stack">
               Stack
             </Link>
@@ -41,7 +41,7 @@ export const Navbar = () => {
             <Link activeClass="active" smooth spy to="projects">
               Projects
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link activeClass="active" smooth spy to="sayhi">
               Say Hi

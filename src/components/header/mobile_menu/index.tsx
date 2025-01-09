@@ -39,7 +39,7 @@ export const MobileNavBar = ({ menu, setMenu }: Props) => {
           <img src="/icons/arrow.svg" alt="arrow" />
           About
         </Link>
-        <Link
+        {/* <Link
           activeClass="qwe"
           smooth
           spy
@@ -58,7 +58,7 @@ export const MobileNavBar = ({ menu, setMenu }: Props) => {
         >
           <img src="/icons/arrow.svg" alt="arrow" />
           Projects
-        </Link>
+        </Link> */}
         <Link
           activeClass="qwe"
           smooth
